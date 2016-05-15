@@ -12,6 +12,13 @@
 		B226AB161CE837010046138E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B226AB141CE837010046138E /* LaunchScreen.storyboard */; };
 		B226AB241CE838C40046138E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB221CE838C40046138E /* AppDelegate.m */; };
 		B226AB2A1CE842090046138E /* DemonstrateController.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB291CE842090046138E /* DemonstrateController.m */; };
+		B226AB2D1CE8900A0046138E /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB2C1CE8900A0046138E /* DemoController.m */; };
+		B226AB301CE895670046138E /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB2F1CE895670046138E /* BaseView.m */; };
+		B226AB331CE896940046138E /* SnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB321CE896940046138E /* SnapView.m */; };
+		B226AB361CE896A90046138E /* PushView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB351CE896A90046138E /* PushView.m */; };
+		B226AB391CE896FA0046138E /* AttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB381CE896FA0046138E /* AttachmentView.m */; };
+		B226AB3C1CE8970C0046138E /* SpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB3B1CE8970C0046138E /* SpringView.m */; };
+		B226AB3F1CE897390046138E /* CollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AB3E1CE897390046138E /* CollisionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,20 @@
 		B226AB221CE838C40046138E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B226AB281CE842090046138E /* DemonstrateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemonstrateController.h; sourceTree = "<group>"; };
 		B226AB291CE842090046138E /* DemonstrateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemonstrateController.m; sourceTree = "<group>"; };
+		B226AB2B1CE8900A0046138E /* DemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
+		B226AB2C1CE8900A0046138E /* DemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		B226AB2E1CE895660046138E /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		B226AB2F1CE895670046138E /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		B226AB311CE896940046138E /* SnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapView.h; sourceTree = "<group>"; };
+		B226AB321CE896940046138E /* SnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapView.m; sourceTree = "<group>"; };
+		B226AB341CE896A90046138E /* PushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushView.h; sourceTree = "<group>"; };
+		B226AB351CE896A90046138E /* PushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushView.m; sourceTree = "<group>"; };
+		B226AB371CE896FA0046138E /* AttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentView.h; sourceTree = "<group>"; };
+		B226AB381CE896FA0046138E /* AttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentView.m; sourceTree = "<group>"; };
+		B226AB3A1CE8970C0046138E /* SpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringView.h; sourceTree = "<group>"; };
+		B226AB3B1CE8970C0046138E /* SpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringView.m; sourceTree = "<group>"; };
+		B226AB3D1CE897390046138E /* CollisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionView.h; sourceTree = "<group>"; };
+		B226AB3E1CE897390046138E /* CollisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +110,8 @@
 			children = (
 				B226AB281CE842090046138E /* DemonstrateController.h */,
 				B226AB291CE842090046138E /* DemonstrateController.m */,
+				B226AB2B1CE8900A0046138E /* DemoController.h */,
+				B226AB2C1CE8900A0046138E /* DemoController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +135,18 @@
 		B226AB231CE838C40046138E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B226AB2E1CE895660046138E /* BaseView.h */,
+				B226AB2F1CE895670046138E /* BaseView.m */,
+				B226AB311CE896940046138E /* SnapView.h */,
+				B226AB321CE896940046138E /* SnapView.m */,
+				B226AB341CE896A90046138E /* PushView.h */,
+				B226AB351CE896A90046138E /* PushView.m */,
+				B226AB371CE896FA0046138E /* AttachmentView.h */,
+				B226AB381CE896FA0046138E /* AttachmentView.m */,
+				B226AB3A1CE8970C0046138E /* SpringView.h */,
+				B226AB3B1CE8970C0046138E /* SpringView.m */,
+				B226AB3D1CE897390046138E /* CollisionView.h */,
+				B226AB3E1CE897390046138E /* CollisionView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,9 +221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B226AB2D1CE8900A0046138E /* DemoController.m in Sources */,
+				B226AB361CE896A90046138E /* PushView.m in Sources */,
 				B226AB241CE838C40046138E /* AppDelegate.m in Sources */,
+				B226AB301CE895670046138E /* BaseView.m in Sources */,
 				B226AB2A1CE842090046138E /* DemonstrateController.m in Sources */,
+				B226AB331CE896940046138E /* SnapView.m in Sources */,
 				B226AB081CE837010046138E /* main.m in Sources */,
+				B226AB3F1CE897390046138E /* CollisionView.m in Sources */,
+				B226AB391CE896FA0046138E /* AttachmentView.m in Sources */,
+				B226AB3C1CE8970C0046138E /* SpringView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "DemonstrateController.h"
+#import "DemoController.h"
 
 @interface DemonstrateController ()
 
@@ -22,6 +23,28 @@
     //  导航栏标题
     self.navigationItem.title = @"物理仿真演示";
 }
+
+#pragma mark - 选中cell的方法
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    //  创建实例控制器
+    DemoController *demon = [[DemoController alloc] init];
+    
+    //  设置标题
+    demon.navigationItem.title = self.plistArr[indexPath.row];
+    
+    //  设置返回按钮的文字
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    //  判断跳到哪个控制器
+    demon.dome = (int)indexPath.row;
+    
+    //  push进入控制器
+    [self.navigationController pushViewController:demon animated:YES];
+    
+    
+}
+
 
 #pragma mark - 数据源方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -45,7 +68,6 @@
     //  返回cell
     return cell;
 }
-
 
 #pragma mark - 懒加载数据
 - (NSArray *)plistArr {
