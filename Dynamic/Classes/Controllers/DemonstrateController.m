@@ -22,6 +22,7 @@
     
     //  导航栏标题
     self.navigationItem.title = @"物理仿真演示";
+    self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
 #pragma mark - 选中cell的方法

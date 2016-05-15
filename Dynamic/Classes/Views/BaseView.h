@@ -10,4 +10,13 @@
 
 @interface BaseView : UIView
 
+//  仿真者元素
+@property (weak, nonatomic) UIImageView *boxView; 
+
+//  拖动的元素
+@property (weak, nonatomic) UIImageView *attView; 
+
+//  仿真者
+@property (strong, nonatomic) UIDynamicAnimator *dynam;
+
 @end
