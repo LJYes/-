@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DemonstrateController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //  实例化窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //  创建窗口的根控制器 嵌入导航控制器
+    DemonstrateController *dcV = [[DemonstrateController alloc] init];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:dcV];  
+    //  显示出来
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
